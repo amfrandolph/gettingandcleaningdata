@@ -48,7 +48,30 @@ Full_Set <- join(Full_Set,activity_lables,"Activity_Code")
 
 ## 2.  Extracts only the measurements on the mean and standard deviation for each measurement. 
 ddupset <- Full_Set[, !duplicated(colnames(Full_Set))]
-targetset <- select(ddupset, contains("std"), contains("mean"))
+targetset <- select(ddupset, contains("std"), contains("mean"), Subject, 
+                Activity_Name, Activity_Code)
 
 ## 5.  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-### STILL TO BE DONE
+### calculate means for each case and put into tidy table
+tidy3 <- NULL
+for (subjectc  in 1:30) {
+        for (activityc in 1:6) {
+                filterl <- filter(targetset, Activity_Code == activityc 
+                                  & Subject == subjectc)
+                meanl <- colMeans(select(filterl, 1:86))
+                meanlcase <- c(subjectc,activityc,meanl)
+                tidy3 <- rbind(tidy3, meanlcase)
+        }
+}
+colnames(tidy3)[1] <- "Subject"
+colnames(tidy3)[2] <- "Activity"
+
+### formate and write table
+formattargetset <- format(tidy3, digits=4, scientific=F, justify='right', )
+write.table(formattargetset, file = "tidydata.txt", row.names=F, 
+            sep='\t', quote=F)
+
+## 6.  Copy column names to codebook
+
+## write.table(codenames, file = "CodeBook.md", row.names = FALSE)
+
