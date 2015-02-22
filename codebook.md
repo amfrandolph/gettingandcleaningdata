@@ -16,339 +16,429 @@ Subject
         Represents each of the 30 indviduals in the Study
         Numeric
         Values 1-30
+
 Activity
         Represents each of the 6 Activities in the Study
         Numeric
         Values 1-6
         Note:   
-                1       WALKING
-                2	WALKING_UPSTAIRS
-                3	WALKING_DOWNSTAIRS
-                4	SITTING
-                5       STANDING
-                6       LAYING
-tBodyAcc-std()-X
+                1 = WALKING,
+                2 = WALKING_UPSTAIRS, 
+                3 = WALKING_DOWNSTAIRS, 
+                4 = SITTING, 
+                5 = STANDING, 
+                6 = LAYING
+
+tBodyAcc-std()-X:
         numeric
         Body linear acceleration and angular velocity derrived in time
-tBodyAcc-std()-Y
+
+tBodyAcc-std()-Y:
         numeric
         Body linear acceleration and angular velocity derrived in time
-tBodyAcc-std()-Z
+
+tBodyAcc-std()-Z:
         numeric
         Body linear acceleration and angular velocity derrived in time
-tGravityAcc-std()-X
+
+tGravityAcc-std()-X:
         numeric
         Body linear acceleration and angular velocity derrived in time
-tGravityAcc-std()-Y
+
+tGravityAcc-std()-Y:
         numeric
         Body linear acceleration and angular velocity derrived in time
-tGravityAcc-std()-Z
+
+tGravityAcc-std()-Z:
         numeric
         Std. dev. Body linear acceleration and angular velocity
-tBodyAccJerk-std()-X
+
+tBodyAccJerk-std()-X:
         numeric
         std. dev. of body linear acceleration and angular velociy
-tBodyAccJerk-std()-Y
+
+tBodyAccJerk-std()-Y:
         numeric
         Std. dev. Body linear acceleration and angular velocity
-tBodyAccJerk-std()-Z
+
+tBodyAccJerk-std()-Z:
         numeric
         Std. dev. Body linear acceleration and angular velocity
-tBodyGyro-std()-X
+
+tBodyGyro-std()-X:
         numeric
         Std. dev. of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyGyro-std()-Y
+
+tBodyGyro-std()-Y:
         numeric
         Std. dev. of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyGyro-std()-Z
+
+tBodyGyro-std()-Z:
         numeric
         Std. dev. of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyGyroJerk-std()-X
+
+tBodyGyroJerk-std()-X:
         numeric
         Std. dev. of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyGyroJerk-std()-Y
+
+tBodyGyroJerk-std()-Y:
         numeric
         Std. dev. of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyGyroJerk-std()-Z
+
+tBodyGyroJerk-std()-Z:
         numeric
         Std. dev. of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyAccMag-std()
+
+tBodyAccMag-std():
         numeric
         Std. dev. of Euclidean norm Body linear acceleration and angular   
                 velocity
-tGravityAccMag-std()
+
+tGravityAccMag-std():
         numeric
         Std. dev. of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyAccJerkMag-std()
+
+tBodyAccJerkMag-std():
         numeric
         Std. dev. of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyGyroMag-std()
+
+tBodyGyroMag-std():
         numeric
         Std. dev. of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyGyroJerkMag-std()
+
+tBodyGyroJerkMag-std():
         numeric
         Std. dev. of Euclidean norm Body linear acceleration and angular   
                 velocity
-fBodyAcc-std()-X
+
+fBodyAcc-std()-X:
         numeric
         Std. dev. of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAcc-std()-Y
+
+fBodyAcc-std()-Y:
         numeric
         Std. dev. of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAcc-std()-Z
+
+fBodyAcc-std()-Z:
         numeric
         Std. dev. of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAccJerk-std()-X
+
+fBodyAccJerk-std()-X:
         numeric
         Std. dev. of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAccJerk-std()-Y
+
+fBodyAccJerk-std()-Y:
         numeric
         Std. dev. of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAccJerk-std()-Z
+
+fBodyAccJerk-std()-Z:
         numeric
         Std. dev. of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyGyro-std()-X
+
+fBodyGyro-std()-X:
         numeric
         Std. dev. of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyGyro-std()-Y
+
+fBodyGyro-std()-Y:
         numeric
         Std. dev. of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyGyro-std()-Z
+
+fBodyGyro-std()-Z:
         numeric
         Std. dev. of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAccMag-std()
+
+fBodyAccMag-std():
         numeric
         Std. dev. of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyBodyAccJerkMag-std()
+
+fBodyBodyAccJerkMag-std():
         numeric
         Std. dev. of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyBodyGyroMag-std()
+
+fBodyBodyGyroMag-std():
         numeric
         Std. dev. of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyBodyGyroJerkMag-std()
+
+fBodyBodyGyroJerkMag-std():
         numeric
         Std. dev. of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-tBodyAcc-mean()-X
+
+tBodyAcc-mean()-X:
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyAcc-mean()-Y
+
+tBodyAcc-mean()-Y:
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyAcc-mean()-Z
+
+tBodyAcc-mean()-Z:
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tGravityAcc-mean()-X
+
+tGravityAcc-mean()-X:
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tGravityAcc-mean()-Y
+
+tGravityAcc-mean()-Y:
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tGravityAcc-mean()-Z
+
+tGravityAcc-mean()-Z:
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyAccJerk-mean()-X
+
+tBodyAccJerk-mean()-X:
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyAccJerk-mean()-Y
+
+tBodyAccJerk-mean()-Y:
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyAccJerk-mean()-Z
+
+tBodyAccJerk-mean()-Z:
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyGyro-mean()-X
+
+tBodyGyro-mean()-X:
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyGyro-mean()-Y
+
+tBodyGyro-mean()-Y:
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyGyro-mean()-Z
+
+tBodyGyro-mean()-Z:
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyGyroJerk-mean()-X
+
+tBodyGyroJerk-mean()-X:
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyGyroJerk-mean()-Y
+
+tBodyGyroJerk-mean()-Y:
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyGyroJerk-mean()-Z
+
+tBodyGyroJerk-mean()-Z:
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyAccMag-mean()
+
+tBodyAccMag-mean():
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tGravityAccMag-mean()
+
+tGravityAccMag-mean():
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyAccJerkMag-mean()
+
+tBodyAccJerkMag-mean():
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyGyroMag-mean()
+
+tBodyGyroMag-mean():
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-tBodyGyroJerkMag-mean()
+
+tBodyGyroJerkMag-mean():
         numeric
         Mean of Euclidean norm Body linear acceleration and angular   
                 velocity
-fBodyAcc-mean()-X
+
+fBodyAcc-mean()-X:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAcc-mean()-Y
+
+fBodyAcc-mean()-Y:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAcc-mean()-Z
+
+fBodyAcc-mean()-Z:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAcc-meanFreq()-X
+
+fBodyAcc-meanFreq()-X:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAcc-meanFreq()-Y
+
+fBodyAcc-meanFreq()-Y:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAcc-meanFreq()-Z
+
+fBodyAcc-meanFreq()-Z:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAccJerk-mean()-X
+
+fBodyAccJerk-mean()-X:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAccJerk-mean()-Y
+
+fBodyAccJerk-mean()-Y:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAccJerk-mean()-Z
+
+fBodyAccJerk-mean()-Z:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAccJerk-meanFreq()-X
+
+fBodyAccJerk-meanFreq()-X:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAccJerk-meanFreq()-Y
+
+fBodyAccJerk-meanFreq()-Y:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAccJerk-meanFreq()-Z
+
+fBodyAccJerk-meanFreq()-Z:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyGyro-mean()-X
+
+fBodyGyro-mean()-X:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyGyro-mean()-Y
+
+fBodyGyro-mean()-Y:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyGyro-mean()-Z
+
+fBodyGyro-mean()-Z:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyGyro-meanFreq()-X
+
+fBodyGyro-meanFreq()-X:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyGyro-meanFreq()-Y
+
+fBodyGyro-meanFreq()-Y:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyGyro-meanFreq()-Z
+
+fBodyGyro-meanFreq()-Z:
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAccMag-mean()
+
+fBodyAccMag-mean():
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyAccMag-meanFreq()
+
+fBodyAccMag-meanFreq():
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyBodyAccJerkMag-mean()
+
+fBodyBodyAccJerkMag-mean():
+         numeric
+        Mean of Fast Frourier Transfrom Body linear acceleration and
+                angular velocity
+
+fBodyBodyAccJerkMag-meanFreq():
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyBodyAccJerkMag-meanFreq()
-fBodyBodyGyroMag-mean()
+
+fBodyBodyGyroMag-mean():
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
+
 fBodyBodyGyroMag-meanFreq()
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
+
 fBodyBodyGyroJerkMag-mean()
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-fBodyBodyGyroJerkMag-meanFreq()
+
+fBodyBodyGyroJerkMag-meanFreq():
         numeric
         Mean of Fast Frourier Transfrom Body linear acceleration and
                 angular velocity
-angle(tBodyAccMean,gravity)
+
+angle(tBodyAccMean,gravity):
         Numeric
         average of signal in signal window
-angle(tBodyAccJerkMean),gravityMean)
+
+angle(tBodyAccJerkMean),gravityMean):
         Numeric
         average of signal in signal window
-angle(tBodyGyroMean,gravityMean)
+
+angle(tBodyGyroMean,gravityMean):
         Numeric
         average of signal in signal window
-angle(tBodyGyroJerkMean,gravityMean)
+
+angle(tBodyGyroJerkMean,gravityMean):
         Numeric
         average of signal in signal window
-angle(X,gravityMean)
+
+angle(X,gravityMean):
         Numeric
         average of signal in signal window
-angle(Y,gravityMean)
+
+angle(Y,gravityMean):
         Numeric
         average of signal in signal window
-angle(Z,gravityMean)
+
+angle(Z,gravityMean):
         Numeric
         average of signal in signal window
